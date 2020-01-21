@@ -1294,7 +1294,7 @@ div.post-tags {
 
 #main::after {
   /* Rule extends %modal-font */
-  content: "City made by NMK, with \2665.";
+  content: "City made by NMK, with \262d.";
   position: relative;
   top: 2em;
   display: block;
