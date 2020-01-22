@@ -1,0 +1,531 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:100,200,300,375,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=VT323:100,200,300,375,400,500,600,700,800,900");
+body {
+font-family:'Titillium Web', sans-serif;
+}
+
+
+#navigation_box{
+height:40px;
+position:fixed;
+top:0;
+border-style:none;
+padding:0;
+transition:0.25s;
+color:rgba(0,0,0,0);
+}
+#left_navigation_box{
+color: rgba(0,0,0,0);
+padding:0;
+}
+#right_navigation_box{
+color: rgba(0,0,0,0);
+}
+#navigation_box a{
+font-size:18px;
+padding:10px;
+padding-top:13px;
+padding-bottom:13px;
+transition:0.25s;
+font-family:'Titillium Web', sans-serif;
+font-weight:100;
+}
+#navigation_box a:nth-child(2){
+border-left-style:solid;
+border-right-style:solid;
+border-width:1px;
+border-color:#f2f2f2;
+}
+#navigation_box a:nth-last-child(2){
+border-right-style:solid;
+border-width:1px;
+border-color:#f2f2f2;
+}
+#right_navigation_box a:nth-child(3){
+border-right-style:solid;
+border-right-width:1px;
+border-color:#f2f2f2;
+}
+#left_navigation_box a{
+margin-left:-9px;
+margin-right:-9px;
+}
+#right_navigation_box a{
+margin-left:-7px;
+margin-right:-7px;
+}
+#left_navigation_box{
+margin-left:9px;
+}
+#right_navigation_box {
+  margin-left:7px;
+}
+#navigation_box a:hover{
+background-color:#f2f2f2;
+color:#20458c;
+}
+
+#header{
+margin-top:34px;
+}
+#wrapper{
+border-style:none;
+width:100%;
+background: #f9f9f9 !important;
+padding:0;
+}
+#content{
+max-width:1100px;
+background: #f9f9f9 !important;
+margin:auto;
+}
+#header{
+border-style:none;
+height: calc( 50vh - 34px);
+margin-top: 34px;
+background: black url("https://cdn.artofproblemsolving.com/images/1/5/2/1526cab286b14e1b92ce583f7d82cc322ad746a2.gif") no-repeat fixed top / 40%;
+
+}
+#header h1{
+font-size: 150px;
+height: 150px;
+text-decoration: none;
+cursor: default;
+font-family: VT323;
+font-weight: 25;
+padding:0;
+margin-top: calc(30vh - 82px);
+color: white;
+word-wrap: break-word;
+}
+
+
+#feed-wrapper{
+display:none;
+}
+#main{
+width:calc(100% - 270px);
+}
+
+#post-new-entry-p img{
+display:none;
+}
+#post-new-entry-p{
+text-align:center;
+margin-bottom:0;
+}
+.entry{
+margin-top:15px !important;
+padding-bottom:10px !important;
+border-style:none !important
+}
+.entry h1 a{
+font-size:40px;
+font-weight:200;
+line-height:40px;
+}
+.entry h2{
+color:black;
+font-weight:375;
+padding-left: 4px;
+}
+.entry h2 img{
+display:none;
+}
+.entry h2 strong a{
+color:black !important;
+font-weight:375 !important;
+}
+.entrywrap{
+margin-left:2px !important;
+}
+.message{
+margin-left:4px;
+border-style:none !important;
+border-left-style:solid !important;
+margin-left:4px !important;
+background-color:#eaf0fa !important;
+border-left-width:5px !important;
+border-left-color:#20458c!important; 
+margin:0 !important;
+padding:7px !important;
+color:black;
+}
+.entrywrap .actions{
+padding-left:0;
+}
+.entrywrap{
+background-color:transparent !important;
+padding:0!important;
+border-style:none !important;
+}
+.entrywrap .cmty-post-edit-info{
+display:none !important;
+}
+
+.aops-scroll-outer.aops-scrollbar-not-visible.blog-scroll-outer{
+padding:0;
+}
+.aops-scroll-content{
+margin-right:0 !important;
+width:100% !important;
+}
+.aops-scroll-outer.aops-scrollbar-not-visible.blog-scroll-outer .aops-scroll-bar{
+display:none !important;
+}
+.aops-scroll-outer.blog-scroll-outer.aops-scrollbar-visible .aops-scroll-bar{
+display:none !important;
+}
+.aops-scroll-outer.blog-scroll-outer.aops-scrollbar-visible{
+padding:0;
+}
+.aops-scroll-content li{
+padding:6px !important;
+}
+.aops-scroll-inner{
+width:240px !important;
+}
+.blog-shout-wrapper{
+border-width:1px !important;
+}
+.blog-tag-wrapper{
+border-width:1px !important;
+}
+#message-box{
+width:242px !important;
+background-color:transparent !important;
+border-width:1px;
+border-color:black;
+box-sizing: none !important;
+}
+#message{
+width:242px !important;
+margin-right:0;
+border-width:1px;
+border-color:black !important;
+background-color:transparent;
+}
+#shouts-widget .widget-content{
+width:240px !important;
+}
+.blog-shout-wrapper{
+width:240px !important;
+border-color:#7a7a7a !important;
+}
+#tags-widget .widget-content{
+width:240px !important;
+}
+.blog-tag-wrapper{
+width:240px !important;
+border-color:#7a7a7a !important;
+}
+.cmty-subject-input{
+font-family:'Titillium Web', sans-serif;
+font-size:15px;
+padding-left:3px !important;
+}
+.cmty-post-textarea{
+padding:3px;
+font-family:'Titillium Web', sans-serif;
+font-size:15px;
+}
+.cmty-posting-button-row{
+background-color:white;
+border-color:white;
+}
+.cmty-bbcode-other.clickable.cmty-bbcode-btn{
+color:black;
+}
+.aops-modal-frame.cmty-posting-modal.ui-draggable{
+border-color:white;
+}
+#side{
+float:left;
+}
+#main{
+float:right;
+}
+#archive-widget{
+margin-top:5px;
+padding-bottom:10px !important;
+margin-bottom:20px !important;
+border-bottom-style:dashed;
+border-bottom-color: #7a7a7a;
+border-bottom-width: 1px;
+}
+#archive-widget img{
+display:none;
+}
+#archive-widget .widget-header .widget-title{
+font-weight:50;
+font-size:30px;
+margin-bottom:5px;
+color:black !important;
+}
+#shouts-widget .widget-header .widget-title{
+font-weight:50;
+font-size:30px;
+margin-bottom:10px;
+color:black !important;
+}
+#shouts-widget{
+margin-top:5px;
+padding-bottom:30px !important;
+margin-bottom:20px !important;
+border-bottom-style:dashed;
+border-bottom-color: #7a7a7a;
+border-bottom-width: 1px;
+}
+.blog-num-shouts{
+display:none!important;
+}
+#tags-widget{
+margin-top:5px;
+padding-bottom:10px !important;
+margin-bottom:20px !important;
+border-bottom-style:dashed;
+border-bottom-color: #7a7a7a;
+border-bottom-width: 1px;
+}
+#tags-widget .widget-header .widget-title{
+font-weight:50;
+font-size:30px;
+margin-bottom:5px;
+color:black !important;
+}
+#tags-widget .widget-header .widget-title{
+font-weight:50;
+font-size:30px;
+margin-bottom:5px;
+color:black !important;
+}
+#stats-widget{
+margin-top:5px;
+padding-bottom:20px !important;
+margin-bottom:20px !important;
+border-bottom-style:dashed;
+border-bottom-color: #7a7a7a;
+border-bottom-width: 1px;
+}
+#stats-widget img{
+display:none;
+}
+#stats-widget .widget-header .widget-title{
+font-weight:50;
+font-size:30px;
+margin-bottom:5px;
+color:black !important;
+}
+#search-widget .widget-header{
+background-color:transparent;
+display:none;
+}
+#search-widget .widget-settings{
+display:none;
+}
+#search-widget .widget-content{
+background-color:transparent;
+border-style:none;
+padding:0;
+}
+#search-widget .widget-footer{
+background-color:transparent;
+border-style:none;
+}
+#blog_searchform input{
+background-color:transparent;
+}
+#blog_searchform fieldset{
+border-style:none !important;
+width:248px; !important;;
+display:inline-block !important;
+margin:0 !important;
+}
+#blog_searchform fieldset input#blog_keywords{
+width:calc(100% - 60px);
+font-family:'Titillium Web', sans-serif;
+border-color:black;
+color:black;
+}
+#blog_searchform fieldset div{
+width:4;
+float:right;
+margin-top:0 !important;
+border-color:black !important;
+}
+#blog_searchform fieldset div input{
+height:22px;
+font-size:12px;
+font-family:'Titillium Web', sans-serif;
+font-weight:300;
+margin-top:0;
+border-color:black;
+color:black;
+}
+#blog_searchform{
+margin:0;
+}
+#search-widget .widget-footer{
+display:none;
+}
+
+#search-widget{
+margin:0 !important;
+padding-bottom:px;
+}
+#search-widget .widget-content{
+margin:0;
+}
+#search-widget{
+position:fixed !important;
+z-index:1000000000000000000 !important;
+top:4px !important;
+right:50px !important;
+padding:0 !important;
+}
+#right_navigation_box{
+right:210px;
+}
+#search-widget .button2{
+display:inline;
+}
+
+#message-box{
+height:99px !important;
+}
+#user-menu-widget{
+padding-bottom:10px !important;
+border-bottom-style:dashed;
+border-color:#7a7a7a;
+border-width:1px;
+margin-bottom:17px!important;
+}
+.user-full a{
+font-weight:300 !important;
+}
+.message{
+word-wrap:break-word;
+}
+
+#right_navigation_box{
+right:210px;
+}
+
+.entry h2 a {
+    color: white;
+}
+a {
+ 
+}
+a:hover {
+    color: orange !important;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+ 
+div.total-posts , div.total-posts a{
+    color: white;
+}
+
+#blog_keywords{
+border-style:none;
+font-size:18px;
+font-weight:300;
+color:white !important;
+}
+#blog_keywords::placeholder{
+color:white;
+font-style:italic;
+}
+#main::after {
+  /* Rule extends %modal-font */
+  content: "CSS credit to Mathlete2017";
+  position: relative;
+  top: 2em;
+  display: block;
+  color: #aaa;
+  font-size: 6pt;
+  text-align: center;
+}
+
+/*Loading bar*/
+@keyframes loading{
+  0%{
+    width: 0px;
+    top: calc(50vh - 50px);
+    font-family: VT323;
+    content: "Loading...";
+    transition: ease;
+    text-align: center;
+  }
+  75%{
+    width: 300px;
+    top: calc(50vh - 50px);
+    font-family: VT323;
+    content: "Loading...";
+    text-align: center;
+  }
+  75.1%{
+    width: 300px;
+    top: calc(50vh - 50px);
+    font-family: VT323;
+    content: "Done!";
+    text-align: center;
+  }
+  85%{
+    top: calc(50vh - 100px);
+    width: 300px;
+    font-family: VT323;
+    content: "Done!";
+    text-align: center;
+  }
+  100%{
+    top: calc(150vh - 50px);
+    width: 300px;
+    font-family: VT323;
+    content: "Done!";
+    text-align: center;
+  }
+}
+html::before{
+  font-family: VT323;
+  content: "Loading...";
+  height: 100px;
+  position: fixed !important;
+  margin: 0px;
+  padding: 0px;
+  top: calc(150vh - 50px);
+  left: calc(50vw - 150px);
+  background-color: black;
+  color: white !important;
+  line-height: 100px;
+  white-space: nowrap;
+  font-size: 50px !important;
+  z-index: 1000000000 !important;
+  animation: loading 2s ease !important;
+  width: 300px !important;
+  box-shadow: 0px 0px 0px 5px white, 0px 50vw 0px calc(50vw + 50vh - 50px) black, 0px 0px 0px 5px white !important; 
+/*The box shadow that makes the border is put before and after the background shadow, because of order issues (Firefox displays the first one on top, chrome displays the last one on top)*/
+  display: block !important;
+}
+html::after{
+  font-family: VT323;
+  content: "Loading... please wait";
+  height: 100px;
+  width: 0px;
+  position: fixed !important;
+  margin: 0px;
+  padding: 0px;
+  top: calc(150vh - 50px);
+  left: calc(50vw - 150px);
+  background-color: white;
+  color: black !important;
+  line-height: 100px;
+  z-index: 1000000001 !important;
+  white-space: nowrap;
+  font-size: 50px !important;
+  animation: loading 2s ease !important;
+  overflow: hidden !important;
+}
