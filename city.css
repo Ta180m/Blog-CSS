@@ -9,6 +9,7 @@
  * Components
  */
 @import url(//brick.a.ssl.fastly.net/Raleway:200,300/Merriweather:200,200i,700,700i/Lato:400,700);
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:100,200,300,375,400,500,600,700,800,900");
 @import url("https://fonts.googleapis.com/css?family=VT323:100,200,300,375,400,500,600,700,800,900");
 /**
  * Groups
@@ -234,7 +235,7 @@ textarea:focus,
  * Encompasses body, wrapper, and general layout
  */
 body {
-  font-family: Merriweather, Garamond, times, serif;
+  font-family:'Titillium Web', sans-serif;
   font-size: 1rem;
   color: #444;
   overflow-x: hidden;
@@ -1107,7 +1108,7 @@ fieldset {
 }
 
 .cmty-post-preview-text {
-  font-family: Merriweather, Garamond, times, serif;
+  font-family:'Titillium Web', sans-serif;
   word-wrap: break-word;
   padding: 0 1em 1em !important;
 }
