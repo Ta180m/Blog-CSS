@@ -1,2 +1,3 @@
-# Blog-CSS
-CSS for [blog](https://artofproblemsolving.com/community/c726379)
+# Blog
+
+Files for my [blog](https://aops.com/community/c1086531_)
